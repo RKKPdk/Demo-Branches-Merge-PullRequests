@@ -1,16 +1,16 @@
 name: Super-Linter
 
-on: push #listning to a push event
+on: push
 
-jobs: #runs this job, when push event happens
+jobs:
   super-lint:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code #1. this job will first checkout our code
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run Super-Linter #2. then run super-linter against the code
+      - name: Run Super-Linter
         uses: github/super-linter@v3
         env:
           DEFAULT_BRANCH: main
