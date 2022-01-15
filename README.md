@@ -2,7 +2,7 @@
 ### This purpose of this repository is to train branching, merging and pull request (PR) techniques. 
 
 ```sh
-The main branch of this repository is *protected*. 
+The main branch of this repository is protected. 
 In order to work with this repository the users have to follow below steps:
 ```
 
