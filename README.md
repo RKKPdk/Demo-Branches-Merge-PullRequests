@@ -12,6 +12,7 @@ In order to work with this repository the users have to follow below steps:
 4. assign reviewer to pull request
 5. when the reviewer has approved the PR only then its possible to merge the `development` branch into the main branch
 
+---
 
 ### CI status of this repository 
 [![CI](https://github.com/RKKPdk/Branches-Merge-PullRequests/actions/workflows/main.yml/badge.svg)](https://github.com/RKKPdk/Branches-Merge-PullRequests/actions/workflows/main.yml)
